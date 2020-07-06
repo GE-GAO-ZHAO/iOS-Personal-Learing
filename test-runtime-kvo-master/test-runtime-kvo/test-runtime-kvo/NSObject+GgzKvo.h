@@ -22,11 +22,8 @@ typedef NS_OPTIONS(NSUInteger, ggzKeyValueObservingOptions) {
 
 @interface NSObject (GgzKvo)
 
-
-- (void)ggz_addObserver:(NSObject *)observer forKeyPath:(NSString *)keyPath options:(ggzKeyValueObservingOptions)options block:(ggzNSKVONitifingBlock) block;
-
-
-- (void)ggzObserveValueForKeyPath:(NSString *)keyPath target:(id) target  oldValue:(id) oldValue newValue:(id)newValue;
+- (void)ggz_addObserver:(NSObject *)observer forKeyPath:(NSString *)keyPath options:(ggzKeyValueObservingOptions)options block:(ggzNSKVONitifingBlock)block;
+- (void)ggzObserveValueForKeyPath:(NSString *)keyPath target:(id)target  oldValue:(id)oldValue newValue:(id)newValue;
 
 @end
 

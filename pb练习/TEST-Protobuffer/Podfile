@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+source 'http://git.koolearn-inc.com/ios/KLXpecs.git'
+source 'http://git.koolearn-inc.com/classmiddlelib/classroomSpec.git'
+source 'http://git.koolearn-inc.com/k12/iOS/KooUpSpecs.git'
+
+platform :ios, '9.0'
+
+target 'TEST-Protobuffer' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TEST-Protobuffer
+  pod 'Protobuf', '~> 50.3.13.0'
+
+ 
+end

@@ -1,0 +1,16 @@
+PODS:
+  - Protobuf (50.3.13.0)
+
+DEPENDENCIES:
+  - Protobuf (~> 50.3.13.0)
+
+SPEC REPOS:
+  http://git.koolearn-inc.com/ios/KLXpecs.git:
+    - Protobuf
+
+SPEC CHECKSUMS:
+  Protobuf: 91ab6f02ca29788d5c7ef591f66b31e60799e905
+
+PODFILE CHECKSUM: 033c4b494e30f4ffe12c50997b84d2edbaa89a0f
+
+COCOAPODS: 1.10.1

@@ -1,17 +1,17 @@
 //
-//  Swift_01Tests.m
-//  Swift-01Tests
+//  notification_testTests.m
+//  notification_testTests
 //
-//  Created by 葛高召 on 2021/8/8.
+//  Created by 葛高召 on 2021/8/11.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface Swift_01Tests : XCTestCase
+@interface notification_testTests : XCTestCase
 
 @end
 
-@implementation Swift_01Tests
+@implementation notification_testTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

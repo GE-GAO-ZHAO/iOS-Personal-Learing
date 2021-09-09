@@ -1,0 +1,6 @@
+framework module Pods_fishhookTestTests {
+  umbrella header "Pods-fishhookTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8387B7BB26D1FAD6001A163B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8387B7BA26D1FAD6001A163B /* AppDelegate.m */; };
+		8387B7BE26D1FAD6001A163B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8387B7BD26D1FAD6001A163B /* SceneDelegate.m */; };
+		8387B7C126D1FAD6001A163B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8387B7C026D1FAD6001A163B /* ViewController.m */; };
+		8387B7C426D1FAD6001A163B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8387B7C226D1FAD6001A163B /* Main.storyboard */; };
+		8387B7C626D1FAD7001A163B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8387B7C526D1FAD7001A163B /* Assets.xcassets */; };
+		8387B7C926D1FAD7001A163B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8387B7C726D1FAD7001A163B /* LaunchScreen.storyboard */; };
+		8387B7CC26D1FAD7001A163B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8387B7CB26D1FAD7001A163B /* main.m */; };
+		8387B7D626D1FAD7001A163B /* fishhookTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8387B7D526D1FAD7001A163B /* fishhookTestTests.m */; };
+		8387B7E126D1FAD7001A163B /* fishhookTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8387B7E026D1FAD7001A163B /* fishhookTestUITests.m */; };
+		8387B7F426D1FB24001A163B /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 8387B7F226D1FB24001A163B /* fishhook.c */; };
+		8387B7FE26D1FE83001A163B /* HookNSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8387B7FD26D1FE83001A163B /* HookNSLog.m */; };
+		8387B80826D231E3001A163B /* Hook_Objc_msgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = 8387B80726D231E3001A163B /* Hook_Objc_msgSend.m */; };
+		8387B82326D24D2A001A163B /* BiteDulSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 8387B82226D24D2A001A163B /* BiteDulSetting.m */; };
+		915C6C03B1C3F16BBA7B63FC /* Pods_fishhookTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1A26077DF34DF8E5F4111E /* Pods_fishhookTest.framework */; };
+		A21A491E302B7897F1A5DF8F /* Pods_fishhookTest_fishhookTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E5DB9F861634B5F61E5A52 /* Pods_fishhookTest_fishhookTestUITests.framework */; };
+		D398294CE53C9B267098F9D8 /* Pods_fishhookTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE894577612DCC78575F0DD6 /* Pods_fishhookTestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8387B7D226D1FAD7001A163B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8387B7AE26D1FAD6001A163B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8387B7B526D1FAD6001A163B;
+			remoteInfo = fishhookTest;
+		};
+		8387B7DD26D1FAD7001A163B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8387B7AE26D1FAD6001A163B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8387B7B526D1FAD6001A163B;
+			remoteInfo = fishhookTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B125C2E203D22E56EE6550D /* Pods-fishhookTest-fishhookTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fishhookTest-fishhookTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-fishhookTest-fishhookTestUITests/Pods-fishhookTest-fishhookTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1567D93E843076E68DC3C030 /* Pods-fishhookTest-fishhookTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fishhookTest-fishhookTestUITests.release.xcconfig"; path = "Target Support Files/Pods-fishhookTest-fishhookTestUITests/Pods-fishhookTest-fishhookTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CD3A3FEF915B1088186B20D /* Pods-fishhookTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fishhookTest.release.xcconfig"; path = "Target Support Files/Pods-fishhookTest/Pods-fishhookTest.release.xcconfig"; sourceTree = "<group>"; };
+		4B1A26077DF34DF8E5F4111E /* Pods_fishhookTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fishhookTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E5DB9F861634B5F61E5A52 /* Pods_fishhookTest_fishhookTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fishhookTest_fishhookTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8387B7B626D1FAD6001A163B /* fishhookTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fishhookTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8387B7B926D1FAD6001A163B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8387B7BA26D1FAD6001A163B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8387B7BC26D1FAD6001A163B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8387B7BD26D1FAD6001A163B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8387B7BF26D1FAD6001A163B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8387B7C026D1FAD6001A163B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8387B7C326D1FAD6001A163B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8387B7C526D1FAD7001A163B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8387B7C826D1FAD7001A163B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8387B7CA26D1FAD7001A163B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8387B7CB26D1FAD7001A163B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8387B7D126D1FAD7001A163B /* fishhookTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishhookTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8387B7D526D1FAD7001A163B /* fishhookTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fishhookTestTests.m; sourceTree = "<group>"; };
+		8387B7D726D1FAD7001A163B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8387B7DC26D1FAD7001A163B /* fishhookTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishhookTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8387B7E026D1FAD7001A163B /* fishhookTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fishhookTestUITests.m; sourceTree = "<group>"; };
+		8387B7E226D1FAD7001A163B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8387B7F226D1FB24001A163B /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		8387B7F326D1FB24001A163B /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		8387B7FC26D1FE83001A163B /* HookNSLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookNSLog.h; sourceTree = "<group>"; };
+		8387B7FD26D1FE83001A163B /* HookNSLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookNSLog.m; sourceTree = "<group>"; };
+		8387B80626D231E3001A163B /* Hook_Objc_msgSend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hook_Objc_msgSend.h; sourceTree = "<group>"; };
+		8387B80726D231E3001A163B /* Hook_Objc_msgSend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hook_Objc_msgSend.m; sourceTree = "<group>"; };
+		8387B82126D24D2A001A163B /* BiteDulSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BiteDulSetting.h; sourceTree = "<group>"; };
+		8387B82226D24D2A001A163B /* BiteDulSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiteDulSetting.m; sourceTree = "<group>"; };
+		871843585B4898E1F7BAE3EB /* Pods-fishhookTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fishhookTest.debug.xcconfig"; path = "Target Support Files/Pods-fishhookTest/Pods-fishhookTest.debug.xcconfig"; sourceTree = "<group>"; };
+		98BBC06ABAEE32626C8CC0B7 /* Pods-fishhookTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fishhookTestTests.debug.xcconfig"; path = "Target Support Files/Pods-fishhookTestTests/Pods-fishhookTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B715C628C33F0AD1A1304A2A /* Pods-fishhookTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fishhookTestTests.release.xcconfig"; path = "Target Support Files/Pods-fishhookTestTests/Pods-fishhookTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE894577612DCC78575F0DD6 /* Pods_fishhookTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fishhookTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8387B7B326D1FAD6001A163B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915C6C03B1C3F16BBA7B63FC /* Pods_fishhookTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8387B7CE26D1FAD7001A163B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D398294CE53C9B267098F9D8 /* Pods_fishhookTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8387B7D926D1FAD7001A163B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21A491E302B7897F1A5DF8F /* Pods_fishhookTest_fishhookTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		661F51E7E4531D8A7569106A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B1A26077DF34DF8E5F4111E /* Pods_fishhookTest.framework */,
+				76E5DB9F861634B5F61E5A52 /* Pods_fishhookTest_fishhookTestUITests.framework */,
+				EE894577612DCC78575F0DD6 /* Pods_fishhookTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8387B7AD26D1FAD6001A163B = {
+			isa = PBXGroup;
+			children = (
+				8387B7B826D1FAD6001A163B /* fishhookTest */,
+				8387B7D426D1FAD7001A163B /* fishhookTestTests */,
+				8387B7DF26D1FAD7001A163B /* fishhookTestUITests */,
+				8387B7B726D1FAD6001A163B /* Products */,
+				F6211F4811475697A0B305AB /* Pods */,
+				661F51E7E4531D8A7569106A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8387B7B726D1FAD6001A163B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8387B7B626D1FAD6001A163B /* fishhookTest.app */,
+				8387B7D126D1FAD7001A163B /* fishhookTestTests.xctest */,
+				8387B7DC26D1FAD7001A163B /* fishhookTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8387B7B826D1FAD6001A163B /* fishhookTest */ = {
+			isa = PBXGroup;
+			children = (
+				8387B81626D24C8C001A163B /* BiteDulSetting */,
+				8387B80226D1FF06001A163B /* Hook_Objc_msgSend */,
+				8387B7F826D1FE63001A163B /* HookNSLog */,
+				8387B7F126D1FB12001A163B /* Third */,
+				8387B7B926D1FAD6001A163B /* AppDelegate.h */,
+				8387B7BA26D1FAD6001A163B /* AppDelegate.m */,
+				8387B7BC26D1FAD6001A163B /* SceneDelegate.h */,
+				8387B7BD26D1FAD6001A163B /* SceneDelegate.m */,
+				8387B7BF26D1FAD6001A163B /* ViewController.h */,
+				8387B7C026D1FAD6001A163B /* ViewController.m */,
+				8387B7C226D1FAD6001A163B /* Main.storyboard */,
+				8387B7C526D1FAD7001A163B /* Assets.xcassets */,
+				8387B7C726D1FAD7001A163B /* LaunchScreen.storyboard */,
+				8387B7CA26D1FAD7001A163B /* Info.plist */,
+				8387B7CB26D1FAD7001A163B /* main.m */,
+			);
+			path = fishhookTest;
+			sourceTree = "<group>";
+		};
+		8387B7D426D1FAD7001A163B /* fishhookTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8387B7D526D1FAD7001A163B /* fishhookTestTests.m */,
+				8387B7D726D1FAD7001A163B /* Info.plist */,
+			);
+			path = fishhookTestTests;
+			sourceTree = "<group>";
+		};
+		8387B7DF26D1FAD7001A163B /* fishhookTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8387B7E026D1FAD7001A163B /* fishhookTestUITests.m */,
+				8387B7E226D1FAD7001A163B /* Info.plist */,
+			);
+			path = fishhookTestUITests;
+			sourceTree = "<group>";
+		};
+		8387B7F126D1FB12001A163B /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				8387B7F226D1FB24001A163B /* fishhook.c */,
+				8387B7F326D1FB24001A163B /* fishhook.h */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		8387B7F826D1FE63001A163B /* HookNSLog */ = {
+			isa = PBXGroup;
+			children = (
+				8387B7FC26D1FE83001A163B /* HookNSLog.h */,
+				8387B7FD26D1FE83001A163B /* HookNSLog.m */,
+			);
+			path = HookNSLog;
+			sourceTree = "<group>";
+		};
+		8387B80226D1FF06001A163B /* Hook_Objc_msgSend */ = {
+			isa = PBXGroup;
+			children = (
+				8387B80626D231E3001A163B /* Hook_Objc_msgSend.h */,
+				8387B80726D231E3001A163B /* Hook_Objc_msgSend.m */,
+			);
+			path = Hook_Objc_msgSend;
+			sourceTree = "<group>";
+		};
+		8387B81626D24C8C001A163B /* BiteDulSetting */ = {
+			isa = PBXGroup;
+			children = (
+				8387B82126D24D2A001A163B /* BiteDulSetting.h */,
+				8387B82226D24D2A001A163B /* BiteDulSetting.m */,
+			);
+			path = BiteDulSetting;
+			sourceTree = "<group>";
+		};
+		F6211F4811475697A0B305AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				871843585B4898E1F7BAE3EB /* Pods-fishhookTest.debug.xcconfig */,
+				2CD3A3FEF915B1088186B20D /* Pods-fishhookTest.release.xcconfig */,
+				0B125C2E203D22E56EE6550D /* Pods-fishhookTest-fishhookTestUITests.debug.xcconfig */,
+				1567D93E843076E68DC3C030 /* Pods-fishhookTest-fishhookTestUITests.release.xcconfig */,
+				98BBC06ABAEE32626C8CC0B7 /* Pods-fishhookTestTests.debug.xcconfig */,
+				B715C628C33F0AD1A1304A2A /* Pods-fishhookTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8387B7B526D1FAD6001A163B /* fishhookTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8387B7E526D1FAD7001A163B /* Build configuration list for PBXNativeTarget "fishhookTest" */;
+			buildPhases = (
+				874B38AB77F433ED568DBC96 /* [CP] Check Pods Manifest.lock */,
+				8387B7B226D1FAD6001A163B /* Sources */,
+				8387B7B326D1FAD6001A163B /* Frameworks */,
+				8387B7B426D1FAD6001A163B /* Resources */,
+				F704BF1201B3F8F1D8E68DA2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fishhookTest;
+			productName = fishhookTest;
+			productReference = 8387B7B626D1FAD6001A163B /* fishhookTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8387B7D026D1FAD7001A163B /* fishhookTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8387B7E826D1FAD7001A163B /* Build configuration list for PBXNativeTarget "fishhookTestTests" */;
+			buildPhases = (
+				8DA4D25526A3C6E1206E4E3D /* [CP] Check Pods Manifest.lock */,
+				8387B7CD26D1FAD7001A163B /* Sources */,
+				8387B7CE26D1FAD7001A163B /* Frameworks */,
+				8387B7CF26D1FAD7001A163B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8387B7D326D1FAD7001A163B /* PBXTargetDependency */,
+			);
+			name = fishhookTestTests;
+			productName = fishhookTestTests;
+			productReference = 8387B7D126D1FAD7001A163B /* fishhookTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8387B7DB26D1FAD7001A163B /* fishhookTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8387B7EB26D1FAD7001A163B /* Build configuration list for PBXNativeTarget "fishhookTestUITests" */;
+			buildPhases = (
+				C43C72614975E37846C3A45C /* [CP] Check Pods Manifest.lock */,
+				8387B7D826D1FAD7001A163B /* Sources */,
+				8387B7D926D1FAD7001A163B /* Frameworks */,
+				8387B7DA26D1FAD7001A163B /* Resources */,
+				A2DF5B9C66F9E0D0B360F979 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8387B7DE26D1FAD7001A163B /* PBXTargetDependency */,
+			);
+			name = fishhookTestUITests;
+			productName = fishhookTestUITests;
+			productReference = 8387B7DC26D1FAD7001A163B /* fishhookTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8387B7AE26D1FAD6001A163B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					8387B7B526D1FAD6001A163B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					8387B7D026D1FAD7001A163B = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 8387B7B526D1FAD6001A163B;
+					};
+					8387B7DB26D1FAD7001A163B = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 8387B7B526D1FAD6001A163B;
+					};
+				};
+			};
+			buildConfigurationList = 8387B7B126D1FAD6001A163B /* Build configuration list for PBXProject "fishhookTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8387B7AD26D1FAD6001A163B;
+			productRefGroup = 8387B7B726D1FAD6001A163B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8387B7B526D1FAD6001A163B /* fishhookTest */,
+				8387B7D026D1FAD7001A163B /* fishhookTestTests */,
+				8387B7DB26D1FAD7001A163B /* fishhookTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8387B7B426D1FAD6001A163B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8387B7C926D1FAD7001A163B /* LaunchScreen.storyboard in Resources */,
+				8387B7C626D1FAD7001A163B /* Assets.xcassets in Resources */,
+				8387B7C426D1FAD6001A163B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8387B7CF26D1FAD7001A163B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8387B7DA26D1FAD7001A163B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		874B38AB77F433ED568DBC96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fishhookTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DA4D25526A3C6E1206E4E3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fishhookTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2DF5B9C66F9E0D0B360F979 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fishhookTest-fishhookTestUITests/Pods-fishhookTest-fishhookTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fishhookTest-fishhookTestUITests/Pods-fishhookTest-fishhookTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fishhookTest-fishhookTestUITests/Pods-fishhookTest-fishhookTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C43C72614975E37846C3A45C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fishhookTest-fishhookTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F704BF1201B3F8F1D8E68DA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fishhookTest/Pods-fishhookTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fishhookTest/Pods-fishhookTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fishhookTest/Pods-fishhookTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8387B7B226D1FAD6001A163B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8387B80826D231E3001A163B /* Hook_Objc_msgSend.m in Sources */,
+				8387B7C126D1FAD6001A163B /* ViewController.m in Sources */,
+				8387B82326D24D2A001A163B /* BiteDulSetting.m in Sources */,
+				8387B7F426D1FB24001A163B /* fishhook.c in Sources */,
+				8387B7BB26D1FAD6001A163B /* AppDelegate.m in Sources */,
+				8387B7CC26D1FAD7001A163B /* main.m in Sources */,
+				8387B7FE26D1FE83001A163B /* HookNSLog.m in Sources */,
+				8387B7BE26D1FAD6001A163B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8387B7CD26D1FAD7001A163B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8387B7D626D1FAD7001A163B /* fishhookTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8387B7D826D1FAD7001A163B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8387B7E126D1FAD7001A163B /* fishhookTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8387B7D326D1FAD7001A163B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8387B7B526D1FAD6001A163B /* fishhookTest */;
+			targetProxy = 8387B7D226D1FAD7001A163B /* PBXContainerItemProxy */;
+		};
+		8387B7DE26D1FAD7001A163B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8387B7B526D1FAD6001A163B /* fishhookTest */;
+			targetProxy = 8387B7DD26D1FAD7001A163B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8387B7C226D1FAD6001A163B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8387B7C326D1FAD6001A163B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8387B7C726D1FAD7001A163B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8387B7C826D1FAD7001A163B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8387B7E326D1FAD7001A163B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8387B7E426D1FAD7001A163B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8387B7E626D1FAD7001A163B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 871843585B4898E1F7BAE3EB /* Pods-fishhookTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRCXN6W74X;
+				INFOPLIST_FILE = fishhookTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.fishhookTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8387B7E726D1FAD7001A163B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD3A3FEF915B1088186B20D /* Pods-fishhookTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRCXN6W74X;
+				INFOPLIST_FILE = fishhookTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.fishhookTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8387B7E926D1FAD7001A163B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98BBC06ABAEE32626C8CC0B7 /* Pods-fishhookTestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRCXN6W74X;
+				INFOPLIST_FILE = fishhookTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.fishhookTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fishhookTest.app/fishhookTest";
+			};
+			name = Debug;
+		};
+		8387B7EA26D1FAD7001A163B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B715C628C33F0AD1A1304A2A /* Pods-fishhookTestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRCXN6W74X;
+				INFOPLIST_FILE = fishhookTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.fishhookTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fishhookTest.app/fishhookTest";
+			};
+			name = Release;
+		};
+		8387B7EC26D1FAD7001A163B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B125C2E203D22E56EE6550D /* Pods-fishhookTest-fishhookTestUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRCXN6W74X;
+				INFOPLIST_FILE = fishhookTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.fishhookTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fishhookTest;
+			};
+			name = Debug;
+		};
+		8387B7ED26D1FAD7001A163B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1567D93E843076E68DC3C030 /* Pods-fishhookTest-fishhookTestUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRCXN6W74X;
+				INFOPLIST_FILE = fishhookTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.fishhookTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fishhookTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8387B7B126D1FAD6001A163B /* Build configuration list for PBXProject "fishhookTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8387B7E326D1FAD7001A163B /* Debug */,
+				8387B7E426D1FAD7001A163B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8387B7E526D1FAD7001A163B /* Build configuration list for PBXNativeTarget "fishhookTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8387B7E626D1FAD7001A163B /* Debug */,
+				8387B7E726D1FAD7001A163B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8387B7E826D1FAD7001A163B /* Build configuration list for PBXNativeTarget "fishhookTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8387B7E926D1FAD7001A163B /* Debug */,
+				8387B7EA26D1FAD7001A163B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8387B7EB26D1FAD7001A163B /* Build configuration list for PBXNativeTarget "fishhookTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8387B7EC26D1FAD7001A163B /* Debug */,
+				8387B7ED26D1FAD7001A163B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8387B7AE26D1FAD6001A163B /* Project object */;
+}

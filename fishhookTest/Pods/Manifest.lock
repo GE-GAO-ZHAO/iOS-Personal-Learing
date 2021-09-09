@@ -1,0 +1,21 @@
+PODS:
+  - HCClangTrace (1.0.1)
+
+DEPENDENCIES:
+  - HCClangTrace (from `https://github.com/jayhe/HCClangTrace.git`)
+
+EXTERNAL SOURCES:
+  HCClangTrace:
+    :git: https://github.com/jayhe/HCClangTrace.git
+
+CHECKOUT OPTIONS:
+  HCClangTrace:
+    :commit: 350e2e9657483a68bbe3b6cb1bad3acc01e23e2a
+    :git: https://github.com/jayhe/HCClangTrace.git
+
+SPEC CHECKSUMS:
+  HCClangTrace: d51f7adc40c791979cad4938a9b19b27f172ae37
+
+PODFILE CHECKSUM: 8c5d70368ecf3c30833868cd8ddeb623171533b3
+
+COCOAPODS: 1.10.1

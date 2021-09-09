@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'fishhookTest' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for fishhookTest
+
+  pod 'HCClangTrace', :git => 'https://github.com/jayhe/HCClangTrace.git'
+
+  target 'fishhookTestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'fishhookTestUITests' do
+    # Pods for testing
+  end
+
+end
